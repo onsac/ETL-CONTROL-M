@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://onsac.com/">
-    <img src="https://github.com/onsac/AIO-Integrador/blob/master/Telas-Configura%C3%A7%C3%A3o/AIO%20INTEGRADOR.png" >
-  </a>
-</p>
+
 
 <h3 align="center">PROCESSO-DE-ETL-CONTROL-M</h3>
 
