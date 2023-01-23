@@ -3,6 +3,7 @@
 <h3 align="center">ETL-CONTROL-M</h3>
 <h4 align="center">Extracción de información de Control-M Enterprise Manager</h4>
 <h4 align="center">Base de datos - PostgreSQL</h4>
+<h4 align="center">Ejecute los siguientes procedimientos en el servidor de Control-M Enterprise Manager</h4>
 
 ## ETL – net_report
 
