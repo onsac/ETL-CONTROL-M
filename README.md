@@ -12,7 +12,8 @@ select 'select * from net_report where net_name = ' ||''''||max(net_name)||'''' 
 ```
 Comando para generar el archivo "net.txt"
 
-Ajuste los parámetros : <dbname> <username> <password>
+Ajuste los parámetros  <dbname> <username> <password>
+	
 ```sh
 > sql --file=net.sql --dbname=<emdb> --username=<emuser> --no-password=<password> -A -q -o net.txt
 ```
@@ -34,7 +35,7 @@ select 'select * from runinfo_history where order_date = ' ||''''||
 ```
 Comando para generar el archivo "history.txt"
 	
-Ajuste los parámetros : <dbname> <username> <password>
+Ajuste los parámetros  <dbname> <username> <password>
 	
 ```sh
 > sql --file=history.sql --dbname=<emdb> --username=<emuser> --no-password=<password> -A -q -o history.txt  
@@ -49,7 +50,7 @@ select 'select * from a' || max(net_name) || 'job' from net_report group by code
 
 Comando para generar el archivo "ajf.txt"
 	
-Ajuste los parámetros : <dbname> <username> <password>
+Ajuste los parámetros  <dbname> <username> <password>
 	
 ```sh
 > sql --file=ajf.sql --dbname=<emdb> --username=<emuser> --no-password=<password> -A -q -o ajf.txt  
